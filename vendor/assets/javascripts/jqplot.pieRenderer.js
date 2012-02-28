@@ -647,6 +647,7 @@
                     
                     for (j=0; j<nc; j++) {
                         if (idx < pd.length){
+	alert(pd[idx]);
                             lt = this.labels[idx] || pd[idx][0].toString();
                             color = colorGenerator.next();
                             if (!reverse){
