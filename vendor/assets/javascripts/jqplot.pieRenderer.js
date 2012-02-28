@@ -682,7 +682,7 @@
 
                             td2 = $(document.createElement('td'));
                             td2.addClass('jqplot-table-legend jqplot-table-legend-label');
-                            td2.css('paddingTop', rs);
+                            //td2.css('paddingTop', rs);
 var precent = pd[idx][1].toString();
 substr = precent.split('.');
                             if (this.escapeHtml){
