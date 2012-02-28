@@ -595,7 +595,7 @@
                 ss['marginRight'] = this.marginRight;
             }
 
-            this._elem.css(ss);
+            //this._elem.css(ss);
 
             // Pie charts legends don't go by number of series, but by number of data points
             // in the series.  Refactor things here for that.
