@@ -647,7 +647,6 @@
                     
                     for (j=0; j<nc; j++) {
                         if (idx < pd.length){
-	alert(pd[idx]);
                             lt = this.labels[idx] || pd[idx][0].toString();
                             color = colorGenerator.next();
                             if (!reverse){
@@ -684,13 +683,13 @@
                             td2 = $(document.createElement('td'));
                             td2.addClass('jqplot-table-legend jqplot-table-legend-label');
                             td2.css('paddingTop', rs);
-
+var precent = parseFloat(pd[idx][1]).toFixed(0);
                             if (this.escapeHtml){
-								bs_strng = lt + " " + label;
+								bs_strng = lt + " " + pd[idx][1].toString() + precent;
                                 td2.text(bs_strng);
                             }
                             else {
-								bs_strng = lt + " " + label;
+								bs_strng = lt + " " + pd[idx][1].toString() + precent;
                                 td2.html(bs_strng);
                             }
                             if (reverse) {
