@@ -683,13 +683,14 @@
                             td2 = $(document.createElement('td'));
                             td2.addClass('jqplot-table-legend jqplot-table-legend-label');
                             td2.css('paddingTop', rs);
-var precent = parseFloat(pd[idx][1]).toFixed(0);
+var precent = pd[idx][1].toString();
+substr = precent.split('.');
                             if (this.escapeHtml){
-								bs_strng = lt + " " + pd[idx][1].toString() + precent;
+								bs_strng = lt + " " + substr[0];
                                 td2.text(bs_strng);
                             }
                             else {
-								bs_strng = lt + " " + pd[idx][1].toString() + precent;
+								bs_strng = lt + " " + substr[0];
                                 td2.html(bs_strng);
                             }
                             if (reverse) {
