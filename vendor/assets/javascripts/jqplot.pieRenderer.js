@@ -686,11 +686,11 @@
 var precent = pd[idx][1].toString();
 substr = precent.split('.');
                             if (this.escapeHtml){
-								bs_strng = lt + " " + substr[0];
+								bs_strng = lt + ": " + substr[0]+"%";
                                 td2.text(bs_strng);
                             }
                             else {
-								bs_strng = lt + " " + substr[0];
+								bs_strng = lt + ": " + substr[0]+"%";
                                 td2.html(bs_strng);
                             }
                             if (reverse) {
