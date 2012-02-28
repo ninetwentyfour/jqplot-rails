@@ -685,10 +685,12 @@
                             td2.css('paddingTop', rs);
 
                             if (this.escapeHtml){
-                                td2.text(lt + label);
+								bs_strng = lt + label;
+                                td2.text(bs_strng);
                             }
                             else {
-                                td2.html(lt + label);
+								bs_strng = lt + label;
+                                td2.html(bs_strng);
                             }
                             if (reverse) {
                                 td2.prependTo(tr);
