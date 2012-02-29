@@ -635,7 +635,7 @@
                 
                 for (i=0; i<nr; i++) {
                     tr = $(document.createElement('li'));
-                    tr.addClass('jqplot-table-legend');
+                    //tr.addClass('jqplot-table-legend');
                     
                     if (reverse){
                         tr.prependTo(this._elem);
@@ -674,14 +674,14 @@
                             td1.css({textAlign: 'center', paddingTop: rs});
 
                             div0 = $(document.createElement('div'));
-                            div0.addClass('jqplot-table-legend-swatch-outline');
+                            //div0.addClass('jqplot-table-legend-swatch-outline');
                             div1 = $(document.createElement('div'));
-                            div1.addClass('jqplot-table-legend-swatch');
+                            //div1.addClass('jqplot-table-legend-swatch');
                             div1.css({backgroundColor: color, borderColor: color});
                             td1.append(div0.append(div1));
 
                             td2 = $(document.createElement('span'));
-                            td2.addClass('jqplot-table-legend jqplot-table-legend-label');
+                            //td2.addClass('jqplot-table-legend jqplot-table-legend-label');
                             //td2.css('paddingTop', rs);
 var precent = pd[idx][1].toString();
 substr = precent.split('.');
