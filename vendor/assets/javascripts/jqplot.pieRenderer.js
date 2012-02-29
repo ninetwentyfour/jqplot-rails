@@ -674,9 +674,9 @@
                             td1.css({textAlign: 'center', paddingTop: rs});
 
                             div0 = $(document.createElement('div'));
-                            //div0.addClass('jqplot-table-legend-swatch-outline');
+                            div0.addClass('jqplot-table-legend-swatch-outline');
                             div1 = $(document.createElement('div'));
-                            //div1.addClass('jqplot-table-legend-swatch');
+                            div1.addClass('jqplot-table-legend-swatch');
                             div1.css({backgroundColor: color, borderColor: color});
                             td1.append(div0.append(div1));
 
