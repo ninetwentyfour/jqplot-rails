@@ -564,7 +564,7 @@
 
 
             this._elem = $(document.createElement('ul'));
-            this._elem.addClass('jqplot-table-legend');
+            this._elem.addClass('chartKey-bar');
 
             var ss = {position:'absolute'};
             if (this.background) {
