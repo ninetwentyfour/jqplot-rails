@@ -649,29 +649,29 @@
                         if (idx < pd.length){
                             lt = this.labels[idx] || pd[idx][0].toString();
                             color = colorGenerator.next();
-                            if (!reverse){
-                                if (i>0){
-                                    pad = true;
-                                }
-                                else{
-                                    pad = false;
-                                }
-                            }
-                            else{
-                                if (i == nr -1){
-                                    pad = false;
-                                }
-                                else{
-                                    pad = true;
-                                }
-                            }
-                            rs = (pad) ? this.rowSpacing : '0';
+                            // if (!reverse){
+                            //     if (i>0){
+                            //         pad = true;
+                            //     }
+                            //     else{
+                            //         pad = false;
+                            //     }
+                            // }
+                            // else{
+                            //     if (i == nr -1){
+                            //         pad = false;
+                            //     }
+                            //     else{
+                            //         pad = true;
+                            //     }
+                            // }
+                            // rs = (pad) ? this.rowSpacing : '0';
 
 
 
                             td1 = $(document.createElement('span'));
                             td1.addClass('circle');
-                            td1.css({textAlign: 'center', paddingTop: rs});
+                            //td1.css({textAlign: 'center'});
 
                             div0 = $(document.createElement('div'));
                             div0.addClass('jqplot-table-legend-swatch-outline');
