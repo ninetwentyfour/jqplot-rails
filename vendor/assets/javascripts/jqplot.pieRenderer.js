@@ -670,7 +670,7 @@
 
 
                             td1 = $(document.createElement('span'));
-                            td1.addClass('jqplot-table-legend jqplot-table-legend-swatch');
+                            td1.addClass('circle');
                             td1.css({textAlign: 'center', paddingTop: rs});
 
                             div0 = $(document.createElement('div'));
