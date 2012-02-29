@@ -564,7 +564,7 @@
 
 
             this._elem = $(document.createElement('ul'));
-            this._elem.addClass('chartKey-bar');
+            this._elem.addClass('chartKey-bar pie-key');
 
             var ss = {position:'absolute'};
             if (this.background) {
