@@ -563,7 +563,7 @@
             var series = this._series;
 
 
-            this._elem = $(document.createElement('table'));
+            this._elem = $(document.createElement('ul'));
             this._elem.addClass('jqplot-table-legend');
 
             var ss = {position:'absolute'};
@@ -634,7 +634,7 @@
                 var div0, div1;   
                 
                 for (i=0; i<nr; i++) {
-                    tr = $(document.createElement('tr'));
+                    tr = $(document.createElement('li'));
                     tr.addClass('jqplot-table-legend');
                     
                     if (reverse){
@@ -669,7 +669,7 @@
 
 
 
-                            td1 = $(document.createElement('td'));
+                            td1 = $(document.createElement('span'));
                             td1.addClass('jqplot-table-legend jqplot-table-legend-swatch');
                             td1.css({textAlign: 'center', paddingTop: rs});
 
@@ -680,7 +680,7 @@
                             div1.css({backgroundColor: color, borderColor: color});
                             td1.append(div0.append(div1));
 
-                            td2 = $(document.createElement('td'));
+                            td2 = $(document.createElement('span'));
                             td2.addClass('jqplot-table-legend jqplot-table-legend-label');
                             //td2.css('paddingTop', rs);
 var precent = pd[idx][1].toString();
